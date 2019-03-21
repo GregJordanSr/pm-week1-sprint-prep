@@ -88,19 +88,10 @@ header nav a {
 header nav a:hover {
 text-decoration: underline;
 }
-
-/* header nav a:first-child {
-    margin-left: 0;
-} */
-
-/* header nav a:last-child {
-    margin-right: 0;
-} */
-
-/* header .logo {
-    margin-top: 25px;
-} */
-
+.zero {
+    margin: 20px 0 0;
+    border-bottom: 1px solid black;
+}
 
 header .logo {
   width: 60px;
@@ -113,6 +104,18 @@ header .logo {
     /* margin-left: 20px; */
 }
 
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+    
+
+}
+
+.second {
+    width: 300px;
+}
 
 
 
