@@ -77,10 +77,12 @@ header nav {
     display: flex;
     width: 691px;
     vertical-align: top;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
 }
 
 header nav a {
-    margin: 0 65px 10px;
     font-size: 14px;
     color: gray;
     text-decoration: none;
