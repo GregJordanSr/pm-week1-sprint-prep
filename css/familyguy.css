@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Oswald', sans-serif;
 }
+button{ font-family: 'Oswald', sans-serif; }
 
 p {
     line-height: 1.4;
@@ -91,6 +92,7 @@ text-decoration: underline;
 .zero {
     margin: 20px 0 0;
     border-bottom: 1px solid black;
+    padding-bottom: 20px;
 }
 
 header .logo {
@@ -98,6 +100,16 @@ header .logo {
   height: 60px;
   
 }
+
+
+
+
+
+
+
+
+
+/* ****************************************************************************   FAMILY GUY PAGE STYLES HERE   */
 .container .top-content .nav-bar {
     display: flex;
     /* justify-content: flex-end; */
@@ -115,17 +127,19 @@ header .logo {
 
 .second {
     width: 300px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
 }
 
+.second .btn {
+    font-size: 15px;
+    padding: 9px;
+    border: 2px solid black;
+    margin-top: 10px;
+    width: 200px;
 
-
-
-
-
-
-
-/* ****************************************************************************   FAMILY GUY PAGE STYLES HERE   */
-
+}
 
 
 .middle-image{
@@ -133,7 +147,9 @@ header .logo {
   height: 250px;
 }
 
-
+.third {
+    margin-bottom: 40px;
+}
 
 
 
